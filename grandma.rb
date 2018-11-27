@@ -24,3 +24,4 @@ elsif prompt == "WHAT DID YOU EAT TODAY?"
 else prompt == "WHAT?"
   puts  "NO, NOT SINCE 1938!"
 end
+end
