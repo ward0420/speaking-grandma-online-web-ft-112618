@@ -12,7 +12,7 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-speak_to_grandma(phrase)
+speak_to_grandma
 if phrase == "I LOVE YOU GRANDMA"
   puts "I LOVE YOU TOO PUMPKIN"
 elsif phrase == "Hi Nana, how are you"
