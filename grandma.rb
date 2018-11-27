@@ -24,7 +24,9 @@ elsif prompt == "Hi!"
   return "HUH?! SPEAK UP, SONNY!"
 elsif prompt == "WHAT DID YOU EAT TODAY?"
   puts "NO, NOT SINCE 1938!"
+  return "NO, NOT SINCE 1938!"
 else prompt == "WHAT?"
   puts  "NO, NOT SINCE 1938!"
-end
+  return "NO, NOT SINCE 1938!"
+  end
 end
