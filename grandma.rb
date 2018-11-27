@@ -21,6 +21,6 @@ elsif == "Hi!"
   puts "HUH?! SPEAK UP, SONNY!"
 elsif == "WHAT DID YOU EAT TODAY?"
   puts "NO, NOT SINCE 1938!"
-elsif == "WHAT?"
+else == "WHAT?"
   puts  "NO, NOT SINCE 1938!"
 end
