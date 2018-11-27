@@ -15,10 +15,13 @@
 def speak_to_grandma(prompt)
 if prompt == "I LOVE YOU GRANDMA"
   puts "I LOVE YOU TOO PUMPKIN"
+  return "I LOVE YOU TOO PUMPKIN"
 elsif prompt == "Hi Nana, how are you"
   puts "HUH?! SPEAK UP, SONNY!"
+  return "HUH?! SPEAK UP, SONNY!"
 elsif prompt == "Hi!"
   puts "HUH?! SPEAK UP, SONNY!"
+  return "HUH?! SPEAK UP, SONNY!"
 elsif prompt == "WHAT DID YOU EAT TODAY?"
   puts "NO, NOT SINCE 1938!"
 else prompt == "WHAT?"
