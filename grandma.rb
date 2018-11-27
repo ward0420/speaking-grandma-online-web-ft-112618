@@ -12,5 +12,8 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-speak_to_grandma("I LOVE YOU GRANDMA")
-puts 
+speak_to_grandma(phrase)
+if "I LOVE YOU GRANDMA"
+  puts "I LOVE YOU TOO PUMPKIN"
+elsif "HUH?! SPEAK UP, SONNY!"
+puts "Hi Nana, how are you?"
