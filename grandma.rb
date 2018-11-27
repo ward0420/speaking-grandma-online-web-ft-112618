@@ -12,15 +12,15 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-speak_to_grandma
-if phrase == "I LOVE YOU GRANDMA"
+speak_to_grandma(prompt)
+if prompt == "I LOVE YOU GRANDMA"
   puts "I LOVE YOU TOO PUMPKIN"
-elsif phrase == "Hi Nana, how are you"
+elsif prompt == "Hi Nana, how are you"
   puts "HUH?! SPEAK UP, SONNY!"
-elsif phrase == "Hi!"
+elsif prompt == "Hi!"
   puts "HUH?! SPEAK UP, SONNY!"
-elsif phrase == "WHAT DID YOU EAT TODAY?"
+elsif prompt == "WHAT DID YOU EAT TODAY?"
   puts "NO, NOT SINCE 1938!"
-else phrase == "WHAT?"
+else prompt == "WHAT?"
   puts  "NO, NOT SINCE 1938!"
 end
