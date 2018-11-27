@@ -14,8 +14,8 @@
 
 def speak_to_grandma(prompt)
 if prompt == "I LOVE YOU GRANDMA!"
-  puts "I LOVE YOU TOO PUMPKIN"
-  return "I LOVE YOU TOO PUMPKIN"
+  puts "I LOVE YOU TOO PUMPKIN!"
+  return "I LOVE YOU TOO PUMPKIN!"
 elsif prompt == "Hi Nana, how are you?"
   puts "HUH?! SPEAK UP, SONNY!"
   return "HUH?! SPEAK UP, SONNY!"
