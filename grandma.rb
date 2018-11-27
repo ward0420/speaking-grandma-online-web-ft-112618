@@ -13,14 +13,14 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 speak_to_grandma(phrase)
-if "I LOVE YOU GRANDMA"
+if == "I LOVE YOU GRANDMA"
   puts "I LOVE YOU TOO PUMPKIN"
-elsif "Hi Nana, how are you"
+elsif == "Hi Nana, how are you"
   puts "HUH?! SPEAK UP, SONNY!"
-elsif "Hi!"
+elsif == "Hi!"
   puts "HUH?! SPEAK UP, SONNY!"
-elsif "WHAT DID YOU EAT TODAY?"
+elsif == "WHAT DID YOU EAT TODAY?"
   puts "NO, NOT SINCE 1938!"
-elsif "WHAT?"
+elsif == "WHAT?"
   puts  "NO, NOT SINCE 1938!"
 end
